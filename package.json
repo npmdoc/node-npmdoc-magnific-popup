@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"magnific-popup",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "magnific-popup",
+    "description": "api documentation for [magnific-popup (v1.1.0)](http://dimsemenov.com/plugins/magnific-popup/) [![npm package](https://img.shields.io/npm/v/npmdoc-magnific-popup.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-magnific-popup) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-magnific-popup.svg)](https://travis-ci.org/npmdoc/node-npmdoc-magnific-popup)",
     "devDependencies": {
-        "magnific-popup": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "magnific-popup": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-magnific-popup",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-magnific-popup",
+    "keywords": [
+        "documentation",
+        "magnific-popup"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_magnific_popup.js",
+    "name": "npmdoc-magnific-popup",
+    "nameAlias": "npmdoc_magnific_popup",
+    "nameOriginal": "npmdoc-magnific-popup",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-magnific-popup"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
