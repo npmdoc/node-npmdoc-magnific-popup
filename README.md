@@ -1,9 +1,14 @@
-# api documentation for  [magnific-popup (v1.1.0)](http://dimsemenov.com/plugins/magnific-popup/)  [![npm package](https://img.shields.io/npm/v/npmdoc-magnific-popup.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-magnific-popup) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-magnific-popup.svg)](https://travis-ci.org/npmdoc/node-npmdoc-magnific-popup)
+# npmdoc-magnific-popup
+
+#### api documentation for  [magnific-popup (v1.1.0)](http://dimsemenov.com/plugins/magnific-popup/)  [![npm package](https://img.shields.io/npm/v/npmdoc-magnific-popup.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-magnific-popup) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-magnific-popup.svg)](https://travis-ci.org/npmdoc/node-npmdoc-magnific-popup)
+
 #### Lightbox and modal dialog plugin. Can display inline HTML, iframes (YouTube video, Vimeo, Google Maps), or an image gallery. Animation effects are added with CSS3 transitions. For jQuery or Zepto.
 
-[![NPM](https://nodei.co/npm/magnific-popup.png?downloads=true)](https://www.npmjs.com/package/magnific-popup)
+[![NPM](https://nodei.co/npm/magnific-popup.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/magnific-popup)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-magnific-popup/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-magnific-popup_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-magnific-popup/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-magnific-popup/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-magnific-popup/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-magnific-popup/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-magnific-popup/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-magnific-popup/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Dmitry Semenov",
-        "email": "diiiimaaaa@gmail.com",
         "url": "http://dimsemenov.com"
     },
     "bugs": {
@@ -67,13 +71,11 @@
     "main": "dist/jquery.magnific-popup.js",
     "maintainers": [
         {
-            "name": "dimsemenov",
-            "email": "diiiimaaaa@gmail.com"
+            "name": "dimsemenov"
         }
     ],
     "name": "magnific-popup",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/dimsemenov/Magnific-Popup.git"
@@ -86,16 +88,6 @@
     "version": "1.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module magnific-popup](#apidoc.module.magnific-popup)
-
-
-
-# <a name="apidoc.module.magnific-popup"></a>[module magnific-popup](#apidoc.module.magnific-popup)
 
 
 
